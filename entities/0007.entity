@@ -1,0 +1,64 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 100,
+            "luminance": 0.0,
+            "name": "Create A",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 0,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 15,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 204,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 204,
+            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+            "rotate": 0.0,
+            "rows": 19,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": []
+    },
+    "id": 7,
+    "sound": {
+        "states": [
+            {
+                "name": "destroying",
+                "sequence": {
+                    "delay": 1.0,
+                    "paths": [
+                        "assets/sounds/NES Sounds/hit.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            }
+        ]
+    },
+    "version": "0.6.0"
+}

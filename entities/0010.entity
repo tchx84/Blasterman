@@ -1,0 +1,53 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "spawns"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 0,
+            "luminance": 0.0,
+            "name": "Cannon",
+            "radius": 0,
+            "rate": 0,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": true,
+            "target_name": "",
+            "target_type": 8,
+            "usable": true,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 15,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 253,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 253,
+            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+            "rotate": 0.0,
+            "rows": 19,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": []
+    },
+    "id": 10,
+    "sound": {
+        "states": []
+    },
+    "version": "0.6.0"
+}

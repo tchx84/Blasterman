@@ -1,0 +1,90 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "transmutes"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 0,
+            "luminance": 0.0,
+            "name": "Bomb A",
+            "radius": 0,
+            "rate": 5,
+            "recovery": 0.0,
+            "removable": true,
+            "stamina": 0,
+            "state": "idling",
+            "strength": 0,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 9,
+            "usable": false,
+            "visible": true,
+            "weight": 0
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 15,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 274,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 274,
+            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+            "rotate": 0.0,
+            "rows": 19,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 5.0,
+                            "first_frame": 274,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 279,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "default"
+                    }
+                ],
+                "name": "idling"
+            }
+        ]
+    },
+    "id": 8,
+    "sound": {
+        "states": [
+            {
+                "name": "idling",
+                "sequence": {
+                    "delay": 1.0,
+                    "paths": [
+                        "assets/sounds/NES Sounds/arrow_hit.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            }
+        ]
+    },
+    "version": "0.6.0"
+}

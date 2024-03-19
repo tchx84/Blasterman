@@ -1,0 +1,290 @@
+{
+    "game": {
+        "default": {
+            "actuators": [
+                "roams",
+                "aggroes",
+                "follows",
+                "takes",
+                "uses",
+                "destroys"
+            ],
+            "density": 1.0,
+            "dialogue": "",
+            "direction": "south",
+            "durability": 100,
+            "luminance": 0.0,
+            "name": "Enemy",
+            "radius": 1,
+            "rate": 0,
+            "recovery": 1.0,
+            "removable": true,
+            "stamina": 100,
+            "state": "idling",
+            "strength": 200,
+            "takeable": false,
+            "target_name": "",
+            "target_type": 1,
+            "usable": false,
+            "visible": true,
+            "weight": 200
+        }
+    },
+    "graphics": {
+        "default": {
+            "columns": 15,
+            "crop_x": 0,
+            "crop_y": 0,
+            "duration": 0.0,
+            "first_frame": 211,
+            "flip_x": false,
+            "flip_y": false,
+            "last_frame": 211,
+            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+            "rotate": 0.0,
+            "rows": 19,
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "tiles_x": 1,
+            "tiles_y": 1
+        },
+        "states": [
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.3,
+                            "first_frame": 215,
+                            "flip_x": true,
+                            "flip_y": false,
+                            "last_frame": 216,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.3,
+                            "first_frame": 212,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 213,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.3,
+                            "first_frame": 218,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 219,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.2,
+                            "first_frame": 214,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 215,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "using"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 199,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 199,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "default"
+                    }
+                ],
+                "name": "destroyed"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.0,
+                            "first_frame": 269,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 269,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "default"
+                    }
+                ],
+                "name": "destroying"
+            },
+            {
+                "directions": [
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 211,
+                            "flip_x": true,
+                            "flip_y": false,
+                            "last_frame": 213,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "south"
+                    },
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 218,
+                            "flip_x": true,
+                            "flip_y": false,
+                            "last_frame": 219,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "north"
+                    },
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 214,
+                            "flip_x": true,
+                            "flip_y": false,
+                            "last_frame": 217,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "west"
+                    },
+                    {
+                        "animation": {
+                            "columns": 15,
+                            "crop_x": 0,
+                            "crop_y": 0,
+                            "duration": 0.5,
+                            "first_frame": 214,
+                            "flip_x": false,
+                            "flip_y": false,
+                            "last_frame": 217,
+                            "path": "assets/images/Bomb Party/bomb_party_v4.png",
+                            "rotate": 0.0,
+                            "rows": 19,
+                            "scale_x": 1.0,
+                            "scale_y": 1.0,
+                            "tiles_x": 1,
+                            "tiles_y": 1
+                        },
+                        "name": "east"
+                    }
+                ],
+                "name": "moving"
+            }
+        ]
+    },
+    "id": 2,
+    "sound": {
+        "states": [
+            {
+                "name": "destroying",
+                "sequence": {
+                    "delay": 1.0,
+                    "paths": [
+                        "assets/sounds/NES Sounds/hurt.ogg"
+                    ],
+                    "timeout": 0.0
+                }
+            }
+        ]
+    },
+    "version": "0.6.0"
+}
